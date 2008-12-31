@@ -1,0 +1,71 @@
+<html>
+<head>
+  <HTA:APPLICATION ID="drTemplateBuilder"
+       APPLICATIONNAME="drTemplateBuilder"
+	   CAPTION="drTemplateBuilder"
+	   SINGLEINSTANCE="no"
+	   ICON="lib/DR_icon.ico">
+	   
+	<title>drTemplateBuilder for NLEX</title>
+ 	<link rel="stylesheet" href="lib/themes/nlex/nlex.tabs.css" type="text/css" media="screen" title="Flora (Default)">
+	<script type="text/javascript" src="lib/scripts/jquery-1.2.6.js"></script>
+  	<script type="text/javascript" src="lib/scripts/ui.core.js"></script>
+  	<script type="text/javascript" src="lib/scripts/ui.tabs.js"></script>
+	<script type="text/javascript" src="lib/scripts/effects.core.js"></script>
+	<script type="text/javascript" src="lib/scripts/effects.slide.js"></script>
+  	<script type="text/javascript" src="lib/scripts/main.js"></script>
+	<script type="text/javascript">
+  		$(document).ready(function(){
+  			var templObj = new TemplateApplication(); templObj.initPage();
+  		});
+  	</script>
+	<script language="VBScript">
+		Sub Window_onLoad
+    		window.resizeTo 850, 600
+		End Sub
+	</script>
+  
+</head>
+<body>
+	<div class="header_bar">
+ 		<img src="lib/themes/nlex/i/logo3.jpg" class="header_image"/>
+		<h3><img class="logo" src="lib/DR_logo_50.png"/>Email Template Builder</h3>
+	</div>
+        <div id="tabs" class="flora">
+            <ul>
+                <li><a href="#choose"><span>1 | Choose Template</span></a></li>
+                <li><a href="#edit"><span>2 | Edit Content</span></a></li>
+				<li><a href="#preview"><span>3 | Preview</span></a></li>
+                <li><a href="#copy"><span>4 | Copy Text</span></a></li>
+            </ul>
+            <div id="choose">
+            	<span class="tab_header">Select a template from the form below</span>
+            	<div class="template_row">
+            		<span class="content_label">Available templates</span>
+    				<span><select name="templateSelect" id="templateSelect"></select></span>
+					<input type=button id="templateSelectSubmit" class="button" value="Load Template"/>
+				</div>
+				<div class="template_row">
+					<span class="content_label">Currently loaded template</span>
+					<span id="currentTemplate" class="no_template">no template loaded</span>
+				</div>
+            </div>
+            <div id="edit">
+            	<span class="tab_header">Use the form below to edit the template fields then click the 'Save/Preview' button to apply changes.</span>
+            	<input type="button" id="updateTemplate" class="button" value="Save Changes"/>
+            	<div id="editForm" class="template_edit"></div>
+            </div>
+			<div id="preview">
+				<span class="tab_header">Template preview</span>
+				<iframe id="templatePreview" name="templatePreview" class="template_preview">
+				</iframe>
+			</div>
+            <div id="copy">
+            	 <span class="tab_header"><a href="#none" id="copyText">Select</a> all of the text below then use <i>CTRL-C</i> or right click to copy to the clipboard.</span>
+                 <textarea id="finishedTemplate" name="finishedTemplate" class="template_textarea"></textarea>
+            </div>
+        </div>
+		<div id="hiddenTemplateContent" class="hide"></div>
+		<div class="status_bar_container"><div id="statusBar" class="status_bar">This is the status bar</div></div>
+</body>
+</html>
