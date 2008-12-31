@@ -1,0 +1,23 @@
+<html>
+<HEAD><TITLE>Message</TITLE>
+<META content="text/html; charset=us-ascii" http-equiv=Content-Type></HEAD>
+<BODY>
+<DIV class=content-container>
+<DIV class=content>
+<DIV><IMG src="http://origin.ih.constantcontact.com/fs053/1102328932279/img/3.jpg"></DIV>
+<P>Available for Sale:</P><!-- Available for sale tag (text) -->
+<H2 id=sale_desc class=drt_tag title="Sale Description" attr="type_text">Enter sale description here...</H2>
+<P>Direct from... </P><!-- Sale from tag (text) --><FONT color=#000080>
+<H1 id=sale_from class=drt_tag title="Sale From" attr="type_text">Enter bank information here...</H1></FONT>
+<DIV><!-- Sale Details tag (list) -->
+<UL id=sale_details class=drt_tag title="Sale Details" attr="type_list">
+<LI>Description item number 1</LI>
+<LI>Description item number 2</LI></UL></DIV>
+<H3>Bidding Will Be VIA FACSIMILE to 618.692.9501</H3>
+<H3>A Sealed Bid May Be Placed On-Line at <A href="http://www.nlex.com">www.nlex.com</A></H3><FONT color=#666666><I>
+<P id=conf_agreement class=drt_tag title="Confidentiality Agreement" attr="type_textarea optional">Notice: All prospective buyers must execute a GenCorp Bank Confidentiality Agreement prior to receiving due diligence.<BR>Please link to <A href="http://www.nlex.com">www.nlex.com</A> or call 800.264.3683 for more information. </P></I></FONT><U>
+<H2><FONT color=#000080 weight="normal">BID DEADLINE: <SPAN id=deadline_date class=drt_tag title="Deadline Date" attr="type_text">December 24, 2008 at 4:00 p.m. (EST)</SPAN> </FONT></H2></U>
+<P>For Additional Information Contact <SPAN id=contact_email class=drt_tag title="Contact Email" attr="type_contact"><A href="mailto:chris@nlex.com?subject=Flyer%20Response">Chris Jenkins</A> &nbsp;/&nbsp;<A href="mailto:vanm@nlex.com?subject=Flyer%20Response">Van Millis</A> </SPAN>or call 800.264.3683 </P><FONT color=#666666>
+<P>This advertisement is an announcement only and does not constitute an offer to sell, nor a solicitation of any offer to buy any loan or loan package referenced herein, which shall occur only by soliciting bids in accordance with the procedures set forth in the Sales Documents. This announcement is intended solely for institutional buyers who qualify as sophisticated institutional purchasers experienced in buying loans owned by financial institutions or which otherwise deal in such instruments in the ordinary course of their business. All loans will be offered "AS IS" and only with representations or warranties, if any, as made by seller in a fully executed Purchase and Sale Contract. Furthermore, NLEX does not warrant the accuracy of any descriptions of the loan portfolio in this announcement (including, but not limited to, the bullet points listed above). The descriptions of the loan portfolio above were communicated to NLEX by the seller, and NLEX has relied on seller's descriptions in creating this announcement. NLEX has no actual knowledge that such descriptions are accurate.</P></FONT></DIV></DIV></BODY>
+</html>
+
