@@ -355,8 +355,8 @@ function TemplateApplication(){
 			// text inputs
 			if ((this.tagType == 'type_text') || (this.tagType == 'type_textarea')) {
 
-				// check if this area is optional
-				var editText = $("input[name^='" + this.tagName + "-edit']").val();
+				// check if this area is optional 
+				var editText = $("#" + this.tagName + "-edit").val();
 				var optionalElem = $("input[@name='" + this.tagName + "-optional']")[0];
 				if (!optionalElem || $(optionalElem).is(':checked')) {
 					$(templatePreview.document.getElementById(this.tagName)).html(editText);
